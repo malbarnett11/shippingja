@@ -1,0 +1,644 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Trirong", sans-serif;
+}
+
+/*Style Header*/
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+	width:100%;
+	padding:20px;
+	font-family: "Trirong", serif;
+}
+
+#img-logo{
+	float: left;
+	width:25%;
+}
+
+#cont-logo{
+	width:75%;
+	
+	
+	
+}
+
+.logo{
+	width:25%;
+	height:75px;
+}
+
+.header .logo{
+	width:100%;
+}
+
+.logo-head{
+	text-transform: capitalize;
+	font-size: 3vw;
+	text-align: right;
+	color:red;
+}
+
+.logo-para{
+	text-transform: capitalize;
+	font-size: 2vw;
+	text-align:right;
+	color:red;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Create one equal columns (Solve.html)*/
+.main-content {
+	float: center;
+	width: 100%;
+	padding: 15px;
+	background-image:url("https://industrytoday.com/wp-content/uploads/2020/08/starting-transport-and-logistics-business.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.main-header {
+	text-align:center;
+	text-transform: capitalize;
+	font-size:5vw;
+	color:red;
+	
+}
+
+.minor-content{
+	font-family: "Trirong", sans-serif;
+}
+.main-paragraph{
+	text-transform: capitalize;
+	font-size:3vw;
+	text-align:center;
+	color:red;
+	
+	
+	
+}
+.main-paragraph1{
+	color:red; 
+	text-align:center;
+	font-size:3.3vw;
+}
+
+
+.minor-heading{
+	text-align:center;
+	text-transform: capitalize;
+	font-size:3.5vw;
+	font-family: "Trirong", serif;
+	color: blue;
+	
+}
+.minor2-heading{
+	text-align:center;
+	text-transform: capitalize;
+	font-size:3.5vw;
+	font-family: "Trirong", serif;
+	color: blue;
+	
+}
+
+.minor2-heading{
+	text-align:center;
+	text-transform: capitalize;
+	font-size:3.5vw;
+	font-family: "Trirong", serif;
+}
+
+img{
+	
+    width:100%;
+	
+}
+
+.express{
+	height:200px;
+	
+}
+
+.imex{
+	height:200px;
+}
+
+.barrel{
+	height:200px;
+	
+}
+/*Button Decoration*/
+.sign-up{
+	border:outset rgb(122, 45, 78);
+	border-radius: 24px;
+	padding: 20px;
+	text-align: center;
+	background-color: red;
+	color: white;
+	font-size: 1.25em;  /* 20px/16=1.25em */
+	text-transform: capitalize;
+	
+}
+
+
+
+.account{
+	border:outset rgb(122, 45, 78);
+	border-radius: 24px;
+	padding: 20px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-size: 1.25em;  /* 20px/16=1.25em */
+	text-transform: capitalize;
+}
+
+.delivery{
+	border:outset rgb(122, 45, 78);
+	border-radius: 24px;
+	padding: 20px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	font-size: 1.25em;  /* 20px/16=1.25em */
+	text-transform: capitalize;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+/* Clear floats after the columns */
+.row:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+	.column {
+		width:100%;
+	}
+	
+}
+
+
+/*Rate html*/
+
+.r-heading{
+	text-align:center;
+	font-size:5vw;
+	padding:5px;
+}
+
+/*Table Decoration*/
+
+table{
+	width:100%;
+	
+	
+}
+
+th {
+	height: 60px;
+}
+
+td {
+	height: 30px;
+	color:black;
+}
+th, td{
+	text-align: center;
+	vertical-align: center;
+	padding: 15px;
+	border-bottom: 2px solid #ddd;
+	
+	
+}
+
+.wrong{
+	color:red;
+}
+i {
+	height: 30px;
+	color:green;
+	
+}
+
+
+
+tr:hover {background-color: coral;}
+
+.table2 {
+	border-collapse: collapse;
+    width: 100%;
+}
+
+.table2 th, td{
+	text-align: left;
+    padding: 8px;
+	border-bottom: 2px solid #ddd;
+	border-left: 0px ;
+}
+
+.table2 tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*Div Decoration*/
+.table-1{
+	max-width: 100%;
+    padding: 10px;
+    margin: 5px
+	
+}
+.table-2{
+	max-width: 100%;
+    padding: 10px;
+    margin: 5px
+}
+
+/*About Us Html*/
+
+.aboutus{
+	text-transform: capitalize;
+	font-size:4vw;
+	text-align:center;
+	color:black;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.about{
+	text-transform: capitalize;
+	font-size:4.5vw;
+	text-align:center;
+	color:green;
+	font-family: "Trirong", sans-serif;
+}
+
+.para-rate{
+	font-family: "Trirong", sans-serif;
+	font-size:2.5vw;
+	text-align:center;
+	
+}
+.main-para1{
+	width: 100%;
+	background-color: blue;
+	color: white;
+	font-size:2.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+.ceo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:95%;
+	height:400px;
+	
+
+}
+
+.head-6{
+	text-transform: capitalize;
+	font-size: 90%;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	
+}
+.min-head{
+	text-transform: capitalize;
+	font-size: 2vw;
+	text-align:center;
+	color:white;
+	font-family: "Trirong", sans-serif;
+	background-color:blue;
+	
+}
+.min-cont{
+	background-color: blue;
+	padding: 20px;
+	
+	
+	
+}
+.but-rate{
+	
+	border:outset rgb(122, 45, 78);
+	border-radius: 24px;
+	padding: 20px;
+	text-align: center;
+	background-color: red;
+	color: white;
+	font-size: 1.25em;  /* 20px/16=1.25em */
+	text-transform: capitalize;
+	
+	
+
+}
+
+
+
+/*Style the footer*/
+.footer {
+	background-color:  #f1f1f1;
+	padding: 20px;
+    text-align: center;
+	margin-top: 20px;
+	
+}
+
+.link{
+	text-decoration:none;
+	color:black;
+	
+}
+
+/* Create three equal columns that floats next to each other */
+.div-footer {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+/* Clear floats after the columns */
+.footer:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+	.div-footer {
+		width:100%;
+	}
+	.ceo{
+		width:95%;
+		height: 60%;
+	}
+	.number-1{
+		width:100%;
+	}
+}
+
+/*Service-1 Html*/
+
+.hed-link{
+	text-decoration:none;
+	text-align:center;
+
+}
+
+.hed-link1{
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+.hed-link3{
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+
+.service-content{
+	background-image:url(https://doorwayexpress.com/assets/website/images/h3.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	padding: 50px;
+	color:blue;
+}
+.service-header{
+	text-transform: capitalize;
+	font-size: 4.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	
+}
+.service-header2{text-transform: capitalize;
+	font-size: 3vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.number-hed{
+	padding: 10px;
+	margin: 5px;
+	font-size: 60px;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.number-para{
+	padding: 10px;
+	margin: 5px;
+	font-size: 30px;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.number{
+	background-color:black;
+	color:white;
+	padding: 50px;
+	width:100%;
+	
+	
+}
+/* Create four equal columns that floats next to each other */
+.number-1 {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+/* Clear floats after the columns */
+.number:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+	
+	.number-1{
+		width:100%;
+	}
+}
+
+/*Service html (Shipping Barrel)*/
+.bar-hed1{
+	text-transform: capitalize;
+	font-size: 4.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	color:black;
+	
+}
+
+.bar-content{
+	background-image:url(https://thumbs.dreamstime.com/b/plastic-storage-drums-chemical-plant-big-blue-barrels-70083163.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	
+}
+
+.bar-hed2{
+	text-transform: capitalize;
+	font-size: 4vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+.bar-para{
+	font-size: 2.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+
+/* Create two equal columns that floats next to each other */
+.col {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+/* Clear floats after the columns */
+.door:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+	
+	.col{
+		width:100%;
+	}
+	
+}
+
+/*Fixed for Responsive*/
+
+.box{
+	
+	display:flex;
+	width:100%;
+	
+}
+
+.img-bar{ /*Width adjustment for fibre barrel for float*/
+	width:200px;
+}
+.box .imgbox{
+	width: 200px;
+}
+
+/*Fixed for responsive*/
+
+
+.bar-head{
+	text-transform: capitalize;
+	font-size: 4vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+.bar-para{
+	text-transform: capitalize;
+	font-size: 2.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+
+.min-cont1{
+	background:lightblue;
+	padding:50px;
+}
+
+.min-para1{
+	text-transform: none;
+	font-size: 2.5vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+}
+
+.min-head1{
+	text-transform: capitalize;
+	font-size: 4vw;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	
+}
+
+.min-list{
+	text-transform: none;
+	font-size: 2.5vw;
+	text-align: left;
+	font-family: "Trirong", sans-serif;
+}
+
+/*Import and Export*/
+.import{
+	color:white;
+	background-color:grey;
+	text-transform: capitalize;
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	padding:50px;
+}
+
+.m-cont{
+	text-align:center;
+	font-family: "Trirong", sans-serif;
+	padding:40px;
+}
+
+
+.m-cont1{
+	background:lightblue;
+	padding:50px;
+	text-align:center;
+}
+
+.m-cont2{
+	text-align:center;
+}
